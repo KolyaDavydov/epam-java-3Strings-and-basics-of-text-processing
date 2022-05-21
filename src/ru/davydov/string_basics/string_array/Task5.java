@@ -9,9 +9,9 @@ package ru.davydov.string_basics.string_array;
 public class Task5 {
 
 	public static void main(String[] args) {
-		String str = "123     белеет   парус одинокий!!!";
+		String str = "   123     белеет   парус одинокий!!!    ";
 		
-		str = str.replaceAll(" +", " ");
+		str = str.replaceAll(" +", " ").trim();
 		
 		System.out.println(str);
 
