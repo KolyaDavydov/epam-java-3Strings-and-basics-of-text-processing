@@ -3,8 +3,8 @@ package ru.davydov.string_basics.string_array;
 import java.util.Arrays;
 
 /*
- * 1. Дан массив названий переменных в camelCase.
- * Преобразовать названия в snake_case.
+ * 1. Р”Р°РЅ РјР°СЃСЃРёРІ РЅР°Р·РІР°РЅРёР№ РїРµСЂРµРјРµРЅРЅС‹С… РІ camelCase.
+ * РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РЅР°Р·РІР°РЅРёСЏ РІ snake_case.
  * */
 
 public class Task1 {
@@ -13,10 +13,10 @@ public class Task1 {
 		
 		String[] camelCase = {"camelCaseOne", "camelCaseTwo", "camelCaseThree"};
 		
-		System.out.println("Названия переменых в массиве до трансформации: "
+		System.out.println("РќР°Р·РІР°РЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… РґРѕ С‚СЂР°РЅСЃС„РѕСЂРјР°С†РёРё: "
 				+ Arrays.toString(camelCase));
 		
-		System.out.println("Названия переменых в массиве после трансформации: " 
+		System.out.println("РќР°Р·РІР°РЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… РїРѕСЃР»Рµ С‚СЂР°РЅСЃС„РѕСЂРјР°С†РёРё: " 
 				+ Arrays.toString(transformation(camelCase)));
     }
 	
