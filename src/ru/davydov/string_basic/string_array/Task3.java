@@ -1,4 +1,4 @@
-package ru.davydov.string_basics.string_array;
+package ru.davydov.string_basic.string_array;
 
 /*
  * 3. В строке найти количество цифр.
